@@ -1,1 +1,11 @@
+#variabel
 
+nama = "Ahmad Ramadanu"
+umur = 18
+tinggi = 1.60
+menikah = False
+
+print(type(nama))
+print(type(umur))
+print(type(tinggi))
+print(type(menikah))
