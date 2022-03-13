@@ -1,1 +1,22 @@
 
+#operator penugasan
+
+nilai = 10
+nilai2 = 5
+nilai += 2 #(nilai += 10) sama dengan (nilai = nilai +10)
+nilai =+ 2 #nilai2 =+ 10 sama dengan nilai2 = 10
+
+print(nilai)
+print(nilai2)
+nilai -= 1
+print(nilai)
+nilai = 2
+print(nilai)
+nilai /= 3
+print(nilai)
+nilai %= 2
+print(nilai)
+nilai **= 2
+print(nilai)
+nilai //= 2
+print(nilai)
