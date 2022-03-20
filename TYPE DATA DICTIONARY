@@ -1,0 +1,35 @@
+#membuat contoh dictionary
+
+identitas = {
+      'nama' : 'Danu',
+      'umur' : 18,
+      'asal' : 'campalagian'
+      
+}
+
+#menampilkan dictionary dengan perulangan
+for i in identitas.items() :
+	print(i)
+	
+for i in identitas :
+	print(i)
+	
+for i in identitas.values() :
+	print(i)
+	
+#mengapdate salah satu dictionary
+identitas ['umur'] = 21
+print(identitas)
+
+#menghapus salah satu dictionary
+identitas.pop('asal')
+print(identitas)
+
+print(identitas.popitem())
+
+identitas.clear ()
+print(identitas)
+
+#menambahkan disctionary
+identitas ['status'] = 'mahasiswa'
+print(identitas)
