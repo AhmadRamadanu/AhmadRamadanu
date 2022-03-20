@@ -1,0 +1,40 @@
+#mebuat contoh set
+
+nama = {"danu", 20, True, 10, "Buku"}
+
+#mwnampilkqn set dengan perulangan
+for i in nama:
+	print(i)
+	
+nama = list(nama)
+
+i = 0
+while i < len(nama) :
+	print(nama[i])
+	i += 1
+	
+#mengupdate salah satu set
+nama[2] = "polpen"
+print(nama)
+
+nama = set(nama)
+
+#kenghapus salah satu set
+nama.remove ("polpen")
+print(nama)
+
+nama.discard(20)
+print(nama)
+
+nama.pop()
+print(nama)
+
+nama.clear()
+print(nama)
+
+#menambah set
+nama.add("Danu")
+print(nama)
+
+nama.update(["bola", "baju"])
+print(nama
